@@ -9,7 +9,7 @@ const taskList = document.getElementById('task-list');
  // Function to add a task
 function addTask () {
 
-    const taskText = taskInput.ariaValueMax.trim();
+    const taskText = taskInput.value.trim();
 
     if (taskText === ""){
         alert("please enter a task!");
